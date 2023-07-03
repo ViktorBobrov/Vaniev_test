@@ -1,6 +1,8 @@
 @media (max-width: 320px) {
   .head_wrapper {
     width: 320px;
+    padding: 0px;
+    margin: 10px;
   }
   .span_wrap {
     margin-right: 20px;
@@ -18,18 +20,37 @@
     font-size: 32px;
     line-height: 42px;
   }
-
+  .head_icon {
+    align-self: flex-start;
+  }
   .page_wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 1500px;
+    gap: 5px;
+    margin-top: 200px;
   }
   .page_wraper-div2 {
-    width: 320px;
-    height: 500px;
+    width: 288px;
+    flex-shrink: 0;
+    background-size: contain;
+    height: 300px;
   }
+  .img-text_button {
+    width: 127px;
+    height: 59px;
+    top: 250px;
+    right: 170px;
+  }
+  .img-text_right {
+    width: 127px;
+    height: 59px;
+    left: 181px;
+    top: 205px;
+    z-index: 2;
+  }
+
   .first_page-par {
     font-size: 16px;
     font-family: Inter;
@@ -42,19 +63,23 @@
   .first_page-button {
     margin-bottom: 20px;
   }
-  .page_wraper-div2 {
-    height: 1500px;
-  }
+
   .intensive {
     flex-direction: column;
     width: 319px;
   }
+  .header_intensive {
+    margin-bottom: 10px;
+  }
   .intensive_wrapper {
-    margin: 0px;
+    margin-top: 200px;
     gap: 0px;
   }
   .inside_wrapper-content {
+    width: 250px;
     flex-direction: column;
+    position: relative;
+    padding: 0px;
   }
   .speakers {
     width: 320px;
@@ -83,6 +108,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: 31px;
+    margin: 80px 10px 40px 10px;
   }
   .speakers_list {
     font-size: 16px;
@@ -201,5 +227,18 @@
   }
   .footer_bottom-list_link:hover {
     color: rgb(190, 192, 194);
+  }
+  .line_div-two {
+    font-size: 10.545px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    flex-shrink: 0;
+  }
+  .line_div-one,
+  .line_div-two {
+    padding: 7px;
   }
 }
