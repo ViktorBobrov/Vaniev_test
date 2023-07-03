@@ -1,0 +1,205 @@
+@media (max-width: 320px) {
+  .head_wrapper {
+    width: 320px;
+  }
+  .span_wrap {
+    margin-right: 20px;
+  }
+  .burger {
+    display: block;
+  }
+  .first_page {
+    width: 320px;
+    max-height: 1500px;
+  }
+  .first_page-head {
+    margin-top: 42px;
+    margin-left: 10px;
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .page_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1500px;
+  }
+  .page_wraper-div2 {
+    width: 320px;
+    height: 500px;
+  }
+  .first_page-par {
+    font-size: 16px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.16px;
+    margin-left: 10px;
+  }
+  .first_page-button {
+    margin-bottom: 20px;
+  }
+  .page_wraper-div2 {
+    height: 1500px;
+  }
+  .intensive {
+    flex-direction: column;
+    width: 319px;
+  }
+  .intensive_wrapper {
+    margin: 0px;
+    gap: 0px;
+  }
+  .inside_wrapper-content {
+    flex-direction: column;
+  }
+  .speakers {
+    width: 320px;
+    gap: 1px;
+  }
+  .speakers_wrapper {
+    flex-direction: column;
+  }
+  .speakers_item {
+    width: 295px;
+    min-height: 677px;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+  }
+  .speakers {
+    flex-direction: column;
+    gap: 1px;
+    flex-wrap: wrap;
+  }
+  .reviews_head-buttons {
+    max-width: 320px;
+  }
+  .speakers_header {
+    font-size: 24px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 31px;
+  }
+  .speakers_list {
+    font-size: 16px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+  }
+  .speakers_img {
+    width: 180px;
+    height: 180px;
+  }
+  .speakers_head {
+    font-size: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  .reviews_people {
+    max-width: 295px;
+    padding: 10px;
+  }
+  .reviews_people-par {
+    font-size: 16px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.16px;
+  }
+  .reviews_wrapper-inside {
+    padding: 5px;
+  }
+  .reviews_noSee {
+    display: none;
+  }
+  .accordion {
+    max-width: 295px;
+    margin: 0 0 0 12px;
+    padding: 20px 0px 20px 5px;
+    font-size: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  .accordeon_wrap {
+    max-height: 580px;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 60px;
+  }
+  .FAQ {
+    height: 580px;
+  }
+  .footer_img {
+    width: 200px;
+    height: 19px;
+  }
+  .panel {
+    font-size: 14px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.16px;
+    height: 100px;
+  }
+  .footer_wrap {
+    min-height: 151px;
+    padding: 0px;
+    width: 320px;
+    justify-content: center;
+  }
+  .footer_bottom-wrapper {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .footer_bottom-list {
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100px;
+  }
+  .footer_wrap_decktop {
+    display: none;
+  }
+  .footer_wrap_mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 320px;
+    background-color: black;
+    height: 221px;
+  }
+  .footer_bottom-wrapper {
+    margin: 0px;
+    padding: 0px;
+    gap: 0px;
+  }
+  .footer_bottom-wrapper::before {
+    display: none;
+  }
+  .footer_bottom-par {
+    align-self: flex-start;
+    padding-left: 30px;
+    margin-top: 10px;
+  }
+  .footer_bottom-list_link {
+    color: aliceblue;
+  }
+  .footer_bottom-list_link:hover {
+    color: rgb(190, 192, 194);
+  }
+}
