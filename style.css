@@ -7,10 +7,11 @@ body {
   margin: 0 auto;
 }
 .big_wrapper {
-  max-width: 1140px;
+  max-width: 1440px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 0 auto;
 }
 span {
   color: #8e82fe;
@@ -68,6 +69,10 @@ span {
   background-image: url(./images/image/);
   gap: 32px;
 }
+.head_icon {
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
 
 .page_wraper-div2 {
   position: relative;
@@ -103,6 +108,9 @@ span {
 .line_div-two:active {
   background-color: #649b41;
   color: rgb(134, 129, 129);
+}
+.first_page {
+  margin-left: 140px;
 }
 .first_page-head {
   color: #171717;
@@ -188,14 +196,14 @@ span {
   justify-content: space-around;
   align-items: center;
   gap: 60px;
-  width: 1150px;
+  width: 1440px;
 }
+
 .speakers_wrapper {
   display: flex;
   justify-content: center;
   flex-direction: row;
   align-items: center;
-
   flex-wrap: nowrap;
   gap: 20px;
 }
@@ -239,7 +247,7 @@ span {
   font-style: normal;
   font-weight: 600;
   line-height: 42px;
-  margin-left: 40px;
+  margin-left: 180px;
   margin-top: 100px;
 }
 .speacers_header-wrap {
@@ -255,11 +263,12 @@ span {
   height: 550px;
 }
 .reviews_wrapper {
-  width: 1090px;
+  width: 1140px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   gap: 60px;
+  margin-left: 160px;
 }
 .reviews_head-buttons {
   height: 100px;
@@ -333,12 +342,17 @@ span {
   line-height: 15px;
 }
 /*faq*/
+.FAQ {
+  width: 1440px;
+  margin-left: 160px;
+}
 .FAQ_wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 60px;
+  width: 1440px;
 }
 .FAQ_wraper-content {
   max-width: 1120px;
@@ -354,7 +368,7 @@ span {
   flex-direction: column;
   align-items: center;
   justify-content: end;
-  width: 1140px;
+  width: 1440px;
   height: 195px;
   background-color: black;
   padding: 20px;
@@ -367,7 +381,7 @@ span {
   flex-wrap: nowrap;
   padding-left: 20px;
   position: relative;
-  width: 1120px;
+  width: 1440px;
   height: 28px;
 }
 .footer_bottom-par {
@@ -381,7 +395,7 @@ span {
 .footer_bottom-wrapper::before {
   content: " ";
   background: rgba(255, 255, 255, 0.2);
-  width: 1120px;
+  width: 1440px;
   height: 2px;
   bottom: 25px;
   position: absolute;
