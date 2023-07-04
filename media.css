@@ -4,25 +4,31 @@
     padding: 0px;
     margin: 10px;
   }
+
   .span_wrap {
     margin-right: 20px;
   }
+
   .burger {
     display: block;
   }
+
   .first_page {
     width: 320px;
     max-height: 1500px;
   }
+
   .first_page-head {
     margin-top: 42px;
     margin-left: 10px;
     font-size: 32px;
     line-height: 42px;
   }
+
   .head_icon {
     align-self: flex-start;
   }
+
   .page_wrapper {
     display: flex;
     flex-direction: column;
@@ -31,18 +37,21 @@
     gap: 5px;
     margin-top: 200px;
   }
+
   .page_wraper-div2 {
     width: 288px;
     flex-shrink: 0;
     background-size: contain;
     height: 300px;
   }
+
   .img-text_button {
     width: 127px;
     height: 59px;
     top: 250px;
     right: 170px;
   }
+
   .img-text_right {
     width: 127px;
     height: 59px;
@@ -60,6 +69,7 @@
     letter-spacing: 0.16px;
     margin-left: 10px;
   }
+
   .first_page-button {
     margin-bottom: 20px;
   }
@@ -68,40 +78,49 @@
     flex-direction: column;
     width: 319px;
   }
+
   .header_intensive {
     margin-bottom: 10px;
   }
+
   .intensive_wrapper {
     margin-top: 200px;
     gap: 0px;
   }
+
   .inside_wrapper-content {
     width: 250px;
     flex-direction: column;
     position: relative;
     padding: 0px;
   }
+
   .speakers {
     width: 320px;
     gap: 1px;
   }
+
   .speakers_wrapper {
     flex-direction: column;
   }
+
   .speakers_item {
     width: 295px;
     min-height: 677px;
     justify-content: flex-start;
     flex-wrap: nowrap;
   }
+
   .speakers {
     flex-direction: column;
     gap: 1px;
     flex-wrap: wrap;
   }
+
   .reviews_head-buttons {
     max-width: 320px;
   }
+
   .speakers_header {
     font-size: 24px;
     font-family: Inter;
@@ -110,6 +129,7 @@
     line-height: 31px;
     margin: 80px 10px 40px 10px;
   }
+
   .speakers_list {
     font-size: 16px;
     font-family: Inter;
@@ -117,10 +137,12 @@
     font-weight: 400;
     line-height: 32px;
   }
+
   .speakers_img {
     width: 180px;
     height: 180px;
   }
+
   .speakers_head {
     font-size: 20px;
     font-family: Inter;
@@ -128,10 +150,12 @@
     font-weight: 500;
     line-height: 24px;
   }
+
   .reviews_people {
     max-width: 295px;
     padding: 10px;
   }
+
   .reviews_people-par {
     font-size: 16px;
     font-family: Inter;
@@ -140,12 +164,15 @@
     line-height: 150%;
     letter-spacing: 0.16px;
   }
+
   .reviews_wrapper-inside {
     padding: 5px;
   }
+
   .reviews_noSee {
     display: none;
   }
+
   .accordion {
     max-width: 295px;
     margin: 0 0 0 12px;
@@ -156,19 +183,23 @@
     font-weight: 500;
     line-height: 24px;
   }
+
   .accordeon_wrap {
     max-height: 580px;
     justify-content: space-between;
     flex-direction: column;
     gap: 60px;
   }
+
   .FAQ {
     height: 580px;
   }
+
   .footer_img {
     width: 200px;
     height: 19px;
   }
+
   .panel {
     font-size: 14px;
     font-family: Inter;
@@ -178,12 +209,14 @@
     letter-spacing: 0.16px;
     height: 100px;
   }
+
   .footer_wrap {
     min-height: 151px;
     padding: 0px;
     width: 320px;
     justify-content: center;
   }
+
   .footer_bottom-wrapper {
     width: 320px;
     display: flex;
@@ -192,42 +225,38 @@
     align-items: center;
     gap: 10px;
   }
+
   .footer_bottom-list {
     align-items: flex-start;
     flex-direction: column;
     height: 100px;
   }
-  .footer_wrap_decktop {
-    display: none;
-  }
-  .footer_wrap_mobile {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    width: 320px;
-    background-color: black;
-    height: 221px;
-  }
+
   .footer_bottom-wrapper {
     margin: 0px;
     padding: 0px;
     gap: 0px;
+    flex-direction: column-reverse;
   }
+
   .footer_bottom-wrapper::before {
     display: none;
   }
+
   .footer_bottom-par {
     align-self: flex-start;
     padding-left: 30px;
     margin-top: 10px;
   }
+
   .footer_bottom-list_link {
     color: aliceblue;
   }
+
   .footer_bottom-list_link:hover {
     color: rgb(190, 192, 194);
   }
+
   .line_div-two {
     font-size: 10.545px;
     font-family: Inter;
@@ -237,6 +266,7 @@
     text-transform: uppercase;
     flex-shrink: 0;
   }
+
   .line_div-one,
   .line_div-two {
     padding: 7px;
