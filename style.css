@@ -1,19 +1,17 @@
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   font-family: "Inter", sans-serif;
   box-sizing: border-box;
   overflow-x: hidden;
 }
 body {
-  min-width: 100%;
   display: flex;
-
+  font-family: "Inter", sans-serif;
   flex-direction: column;
 }
 
 .big_wrapper {
-  width: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -48,12 +46,6 @@ span {
   flex-wrap: nowrap;
 }
 
-.page_wrapper-div {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  flex-wrap: nowrap;
-}
 .head_content {
   font-size: 24px;
   font-family: Inter;
@@ -73,31 +65,31 @@ span {
 .page_wrapper {
   display: flex;
   flex-direction: row;
-  max-width: 1440px;
   margin: 0 auto;
   width: 100%;
   padding: 0 160px;
   gap: 51px;
+  border-radius: 0px;
 }
 
 .page_wrapper-div,
 .page_wraper-div2 {
-  position: relative;
   flex-direction: column;
   position: relative;
   border-radius: 35px;
-  width: 39%;
+  width: 70%;
   height: 29.2%;
   object-fit: contain;
   object-position: top;
 }
-
+.page_wrapper-div {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  flex-wrap: nowrap;
+  border-radius: 0px;
+}
 .inside_wrapper-content_list {
-  font-size: 18px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px;
   padding-left: 20px;
 }
 .head_icon {
@@ -108,7 +100,9 @@ span {
 .mentors-group {
   z-index: 1;
   width: 100%;
-  height: 100%;
+  flex-shrink: 1;
+  flex-grow: 7;
+  flex-basis: 200%;
 }
 .line_div-one,
 .line_div-two {
@@ -123,6 +117,7 @@ span {
 .line_div-one {
   z-index: 2;
   left: 24px;
+  width: 23%;
 }
 
 .line_div-two {
@@ -130,7 +125,8 @@ span {
   border: 2px solid #b7fd8b;
   color: #b7fd8b;
   z-index: 2;
-  left: 148px;
+  left: 31%;
+  width: 35%;
 }
 
 .first_page-head {
@@ -140,6 +136,10 @@ span {
   font-style: normal;
   font-weight: 700;
   line-height: 63px;
+  margin: 0px;
+  flex-shrink: 1;
+  flex-grow: 7;
+  flex-basis: 200%;
 }
 
 .first_page-par {
@@ -150,6 +150,7 @@ span {
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0.18px;
+  margin: 0px;
   margin-top: 32px;
 }
 
@@ -162,7 +163,9 @@ span {
   border: none;
   align-self: flex-start;
   cursor: pointer;
+  margin: 0;
   margin-top: 42px;
+  width: 70%;
 }
 
 .first_page-button:hover {
@@ -174,21 +177,6 @@ span {
 .first_page-button:active {
   background-color: #343434;
 }
-
-.img-text_button {
-  position: absolute;
-  top: 89.3%;
-  right: 54%;
-}
-
-.img-text_right {
-  position: absolute;
-  width: 222px;
-  height: 123px;
-  top: 73%;
-  left: 70%;
-}
-
 /* intensive*/
 .intensive_wrapper {
   display: flex;
@@ -233,7 +221,9 @@ span {
   font-weight: 400;
   line-height: 32px;
 }
-
+.inside_wrapper-content_item::marker {
+  font-size: 1.2em;
+}
 .header_intensive {
   font-size: 32px;
   font-family: Inter;
@@ -258,7 +248,7 @@ span {
 }
 
 .speakers_item {
-  width: 33.8%;
+  width: 37%;
 
   display: flex;
   flex-direction: column;
@@ -326,10 +316,11 @@ span {
 .reviews {
   background: #c6c0ff;
   width: 100%;
+  min-height: 381px;
 }
 
 .reviews_wrapper {
-  width: 1140px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -363,7 +354,8 @@ span {
   align-self: flex-start;
   gap: 20px;
   padding-left: 20px;
-  position: relative;
+  min-height: 300px;
+  width: 100%;
 }
 
 .reviews_people {
@@ -373,8 +365,10 @@ span {
   padding: 22px;
   background-color: #fff;
   border-radius: 15px;
-  width: 486px;
-  height: 215px;
+  max-width: 486px;
+  max-height: 215px;
+  font-family: "Inter", sans-serif;
+  gap: 26px;
 }
 
 .reviews_people-wrap_foto-text {
@@ -400,12 +394,15 @@ span {
 }
 
 .reviews_people-par {
-  font-size: 18px;
+  font-size: 17px;
   font-family: Inter;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0.18px;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 .student {
@@ -426,7 +423,7 @@ span {
 
 /*faq*/
 .FAQ {
-  width: 1440px;
+  width: 100%;
   margin-left: 160px;
 }
 
@@ -455,13 +452,13 @@ span {
   flex-direction: column;
   align-items: center;
   justify-content: end;
-  width: 1440px;
-  height: 195px;
-  background-color: black;
+  width: 100%;
   padding: 20px;
+  background-color: black;
 }
 
 .footer_bottom-wrapper {
+  height: 40%;
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
@@ -469,17 +466,17 @@ span {
   flex-wrap: nowrap;
   padding-left: 20px;
   position: relative;
-  width: 1440px;
-  height: 28px;
+  width: 100%;
 }
 
 .footer_bottom-par {
   font-size: 11px;
-  color: #fff;
+  font-family: Inter;
   font-style: normal;
   font-weight: 400;
   line-height: 13px;
   text-transform: uppercase;
+  color: white;
 }
 
 .footer_bottom-wrapper::before {
@@ -494,12 +491,12 @@ span {
 .footer_bottom-list {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
 .footer_img-wrap {
-  height: 151px;
+  height: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -508,12 +505,18 @@ span {
 
 .footer_img {
   margin-left: 20px;
+  width: 200px;
 }
 
 .footer_bottom-list_link {
   text-decoration: none;
-  color: #666;
-  margin-right: 20px;
+  color: #fff;
+  margin-right: 2px;
+  font-size: 11px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
 }
 
 .footer_bottom-list_link:hover {
@@ -531,9 +534,8 @@ span {
   justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;
-  width: 1100px;
   height: 133px;
-  background-color: #f5f5f4;
+  background-color: #ffffff;
   color: #030303;
   cursor: pointer;
   margin: 0 0 0 20px;
@@ -547,21 +549,26 @@ span {
   font-weight: 500;
   line-height: 30px;
   border-radius: 25px;
+  max-width: 81%;
+  padding: 32px 42px 32px 56px;
 }
 
-.active,
-.accordion:hover {
-  background-color: #ccc;
+.accordeon_wrap-item {
+  margin: 8px;
 }
-
 .panel {
   padding: 0 18px;
   background-color: #fff;
   display: none;
   overflow: hidden;
-  height: 70px;
+
   margin-top: 20px;
   margin: 20px 0 0 20px;
+  width: 70%;
+}
+.panel_item {
+  width: 70%;
+  margin-left: 38px;
 }
 
 .accordion:after {
@@ -577,21 +584,7 @@ span {
 
 .accordeon_wrap {
   margin-bottom: 100px;
+  max-width: 1120px;
 }
-
-.reviews_people_1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 22px;
-  background-color: #fff;
-  border-radius: 15px;
-  width: 486px;
-  height: 215px;
-  position: absolute;
-  left: 1110px;
-}
-
-.footer_wrap_mobile {
-  display: none;
+.footer_bottom-list_link {
 }

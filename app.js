@@ -1,4 +1,5 @@
 let acc = document.getElementsByClassName("accordion");
+let acordi = document.getElementsByClassName("accordeon_wrap-item");
 let i;
 
 for (i = 0; i < acc.length; i++) {
@@ -9,6 +10,9 @@ for (i = 0; i < acc.length; i++) {
       panel.style.display = "none";
     } else {
       panel.style.display = "block";
+      
     }
   });
 }
+
+

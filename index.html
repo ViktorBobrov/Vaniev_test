@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Курсы.ру</title>
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="media.css">
+  <link rel="stylesheet" href="media.css"/>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;700&display=swap" rel="stylesheet" />
@@ -115,8 +115,8 @@
         <div class="reviews_head-buttons">
           <h3 class="reviews_head">Отзывы учеников</h3>
           <div class="arrows">
-            <img src="./images/image/Button-left.png" alt="влево" />
-            <img src="./images/image/Button-right.png" alt="вправо" />
+            <img src="./images/image/Button-left.png" alt="влево"  class="arrov_slide"/>
+            <img src="./images/image/Button-right.png" alt="вправо" class="arrov_slide"/>
           </div>
         </div>
         <div class="reviews_wrapper-inside">
@@ -144,7 +144,7 @@
               </div>
             </div>
 
-            <div class="reviews_people reviews_noSee">
+            <div class="reviews_people">
               <p class="reviews_people-par">Dear teacher, I want to tell you — thanks a lot for your work and patience
                 You’re so young but so mature — I admire you and just enjoying to learn English with you. Sorry for
                 my mistakes and bad memory at class sometimes</p>
@@ -163,16 +163,22 @@
         <h2 class="FAQ_head">FAQ</h2>
       </div>
       <div class="accordeon_wrap">
-        <button class="accordion">Какой уровень английского языка нужен для участия в
-          интенсиве?</button>
-        <div class="panel">
-          <p>Для участия в интенсиве английского языка необходимо иметь базовые знания языка на уровне Beginner или
-            Pre-Intermediate.</p>
+        <div class="accordeon_wrap-item">
+          <button class="accordion">Какой уровень английского языка нужен для участия в
+            интенсиве?</button>
+          <div class="panel">
+            <p class="panel_item">Для участия в интенсиве английского языка необходимо иметь базовые знания языка на уровне Beginner или
+             Pre-Intermediate.</p>
+          </div>
         </div>
-        <button class="accordion">Какой формат занятий на интенсиве (групповые или индивидуальные)?</button>
+          
+        <div class="accordeon_wrap-item">
+          <button class="accordion">Какой формат занятий на интенсиве (групповые или индивидуальные)?</button>
         <div class="panel">
-          <p>Lorem ipsum...</p>
+          <p class="panel_item">Lorem ipsum...</p>
         </div>
+      </div>
+        
       </div>
 
   </div>
