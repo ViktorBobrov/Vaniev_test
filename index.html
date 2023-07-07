@@ -4,207 +4,227 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Курсы.ру</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="media.css"/>
+  <title>КУРСЫ.РУ</title>
+  <link rel="shortcut icon" href="/images/image/favicon.svg" type="image/x-icon" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;700&display=swap" rel="stylesheet" />
-  <link rel="shortcut icon" href="./images/image/favicon.svg" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./media.css">
 </head>
 
 <body>
-  <div class="big_wrapper">
-    <header>
-      <div class="head_wrapper">
-        <img src="./images/icons/Logo.svg" alt="курсы.ру" class="head_icon" />
-        <div class="span_wrap">
-          <span class="burger"></span>
-          <span class="burger"></span>
-          <span class="burger"></span>
+  <div class="grand_wrapper">
+    <header class="header_title">
+      <div class="header_wrapper">
+        <img src="./images/icons/Logo.svg" alt="курсы.ру" class="icon_company" />
+        <div class="burger_menu">
+          <span class="burger_item"></span>
+          <span class="burger_item"></span>
+          <span class="burger_item"></span>
         </div>
       </div>
     </header>
-    <section class="first_page">
-      <div class="page_wrapper">
-        <div class="page_wrapper-div">
-          <h1 class="first_page-head">
-            Начните понимать английский <span>за три дня</span>
+    <section class="premier">
+      <div class="premier_wrap">
+        <div class="premier_wrap-item-left">
+          <h1 class="premier_head">
+            Начните понимать английский
+            <span class="violet_head">за три дня</span>
           </h1>
-          <p class="first_page-par">
-            За три дня бесплатного интенсива вы научитесь: строить предложения,
-            резберетесь во всех временах — от Past Simple до Present Perfect
-            Continuous, познакомитесь с глаголом to be.
+          <p class="premier_par">
+            За три дня бесплатного интенсива вы научитесь: строить
+            предложения, резберетесь во всех временах — от Past Simple
+            до Present Perfect Continuous, познакомитесь с глаголом to be.
           </p>
-          <button class="first_page-button">Стать участником</button>
+          <button class="premier_button">Стать участником</button>
         </div>
-        <div class="page_wraper-div2">
-          <button class="line_div-one">16-18 ИЮНЯ</button>
-          <button class="line_div-two">Базовая грамматика
-          </button>
-          <img src="./images/image/менторы.png" alt="mentors" class="mentors-group">
-          <div class="text_cris">
-
+        <div class="premier_wrap-item-right">
+          <div class="premier_button-right">
+            <button class="date">16-18 июля</button>
+            <button class="grammatics">Базовая грамматика</button>
           </div>
-          
+
+          <img src="./images/image/mentors.png" alt="mentors" class="mentors" />
+          <div class="cris_info">
+            <p class="speaker">Спикер</p>
+            <p class="speaker_head">Кристина Дронова</p>
+            <p class="speaker_text">
+              Сертификат TSOL от Аризонского университета
+            </p>
+          </div>
+          <div class="jafar_info">
+            <p class="speaker">Спикер</p>
+            <p class="speaker_head">Джафарли Джафар</з>
+            <p class="speaker_text">Сертификат TOEFL,MBA Sertificate</p>
+          </div>
         </div>
       </div>
     </section>
-    <section class="intensive">
-      <div class="intensive_wrapper">
-        <h2 class="header_intensive">Что будет на интенсиве</h2>
-        <div class="intensive_wrapper-content">
-          <div class="day_place">1 день</div>
-          <div class="inside_wrapper-content">
-            <h3 class="head_content">
-              Научитесь составлять предложения на английском:
-            </h3>
-            <ul class="inside_wrapper-content_list">
-              <li class="inside_wrapper-content_item">
-                запомните все члены предложения
-              </li>
-              <li class="inside_wrapper-content_item">
-                поймете структуру утвердительного, отрицательного и
-                вопросительного предложения
-              </li>
+    <section class="expected">
+      <div class="expected_wrap">
+        <h2 class="expected_head">Что будет на интенсиве </h2>
+        <div class="expected_info">
+          <button class="expected_day">1 день</button>
+          <div class="list_and_head">
+            <h3 class="expected_info-head">Научитесь составлять предложения на английском:</h3>
+            <ul class="expected_info-list">
+              <li class="expected_info-list_item">запомните все члены предложения</li>
+              <li class="expected_info-list_item">поймете структуру утвердительного, отрицательного и вопросительного
+                предложения</li>
             </ul>
           </div>
         </div>
       </div>
     </section>
-    <section class="speakers">
-      <div class="speacers_header-wrap">
-        <h2 class="speakers_header">Спикеры</h2>
-      </div>
-      <div class="speakers_wrapper">
-        <div class="speakers_item">
-          <img src="./images/image/img (1).png" alt="кристина" class="speakers_img" />
-          <h3 class="speakers_head">Кристина Дронова</h3>
-          <ul class="speakers_list">
-            <li class="speacers_list-item">2 года преподает ученикам</li>
-            <li class="speacers_list-item">
-              Окончила Высший павлодарский педагогический колледж им. Б.Ахметова
-            </li>
-            <li class="speacers_list-item">Поступила в педагогический университет</li>
-            <li class="speacers_list-item">
-              В прошлом году успешно прошла курсы на базе Аризонского
-              государственного университета
-            </li>
-            <li class="speacers_list-item">В штате Аризона и получила сертификат TESOL</li>
-          </ul>
-        </div>
-        <div class="speakers_item">
-          <img src="./images/image/img (2).png" alt="Джафар" class="speakers_img" />
-          <h3 class="speakers_head">Джафарли Джафар</h3>
-          <ul class="speakers_list">
-            <li class="speacers_list-item">
-              Опыт изучени английского: со школьной программы до MBA English
-              School. Сертификат TOEFL, MBA Certificate. Буду сдавать на IELTS
-            </li>
-            <li class="speacers_list-item">
-              Один из учеников выходит сдавать ОГЭ в этом году, 2 человека
-              переехали за границу по работе (Вьетнам и Кипр) и молодая пара
-              уехала жить на ПМЖ в Тайланд
-            </li>
-          </ul>
+    <section class="speacers">
+
+      <div class="speacers_wrapper">
+        <h2 class="speacers_head">Спикеры</h2>
+        <div class="speacers_info_wrap">
+          <div class="speacers_info_wrap-left">
+            <img src="./images/image/speacers_cris.png" alt="Criss" class="speacer_info-foto">
+            <h3 class="speacer_info-head">Кристина Дронова</h3>
+            <ul class="speacer_info-lest">
+              <li class="speacer_info-item">2 года преподает ученикам</li>
+              <li class="speacer_info-item">Окончила Высший павлодарский педагогический колледж им. Б.Ахметова</li>
+              <li class="speacer_info-item">Поступила в педагогический университет</li>
+              <li class="speacer_info-item">В прошлом году успешно прошла курсы на базе Аризонского государственного
+                университета</li>
+              <li class="speacer_info-item">В штате Аризона и получила сертификат TESOL</li>
+            </ul>
+          </div>
+          <div class="speacers_info_wrap-right">
+            <img src="./images/image/mentors_jafar.png" alt="Jafar" class="speacer_info-foto">
+            <h3 class="speacer_info-head">Джафарли Джафар</h3>
+            <ul class="speacer_info-lest">
+              <li class="speacer_info-item">Опыт изучени английского: со школьной программы до MBA English School.
+                Сертификат TOEFL, MBA Certificate. Буду сдавать на IELTS</li>
+              <li class="speacer_info-item">Один из учеников выходит сдавать ОГЭ в этом году, 2 человека переехали за
+                границу по работе (Вьетнам и Кипр) и молодая пара уехала жить на ПМЖ в Тайланд</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
     <section class="reviews">
-      <div class="reviews_wrapper">
-        <div class="reviews_head-buttons">
-          <h3 class="reviews_head">Отзывы учеников</h3>
-          <div class="arrows">
-            <img src="./images/image/Button-left.png" alt="влево"  class="arrov_slide"/>
-            <img src="./images/image/Button-right.png" alt="вправо" class="arrov_slide"/>
-          </div>
+
+      <div class="head_wrap-reviews">
+        <div class="swiper_head">Отзывы учеников</div>
+        <div class="wrap_arrov">
+          <img src="./images/image/Button-left.png" alt="arrov_left" class="swiper_left  ">
+          <img src="./images/image/Button-right.png" alt="arrov_right" class="swiper_right ">
         </div>
-        <div class="reviews_wrapper-inside">
-          <div class="reviews_people">
-            <p class="reviews_people-par">Крис, спасибо большое за урок! Я давно хотела с тобой поработать, потому что
-              тебе хочется доверять как учителю, ты мотивируешь и заряжаешь энергией развиваться.</p>
-            <div class="reviews_people-wrap_foto-text">
-              <img src="./images/image/Elise.png" alt="фото Елизаветы" class="reviews_people-foto" />
-              <div class="wrap_foto-text">
-                <h6 class="student">Елизавета</h6>
-                <p class="teacher">Ученик Кристины</p>
+      </div>
+
+        <div class="slider_wrap">
+          <div class="slide_inside_wrapper">
+            <p class="slide_text">Крис, спасибо большое за урок! Я давно хотела с тобой поработать, потому что тебе
+              хочется доверять как учителю, ты мотивируешь и заряжаешь энергией развиваться.</p>
+            <div class="slide_foto-and-text">
+              <img src="./images/image/Elise.png" alt="Elise" class="revievs_foto">
+              <div class="mentor_and_student">
+                <div class="student_text">Елизавета</div>
+                <p class="mentor_text">Ученик Кристины</p>
               </div>
             </div>
           </div>
-
-          <div class="reviews_people ">
-            <p class="reviews_people-par">Dear teacher, I want to tell you — thanks a lot for your work and patience
+          <div class="slide_inside_wrapper">
+            <p class="slide_text">Dear teacher, I want to tell you — thanks a lot for your work and patience
               You’re so young but so mature — I admire you and just enjoying to learn English with you. Sorry for
-              my mistakes and bad memory at class sometimes</p>
-            <div class="reviews_people-wrap_foto-text">
-              <img src="./images/image/Стас.png" alt="фото стаса" class="reviews_people-foto" />
-              <div class="wrap_foto-text">
-                <h2 class="student">Стас</h2>
-                <p class="teacher">Ученик Джафара</p>
+              my mistakes and bad memory at class sometimes.</p>
+            <div class="slide_foto-and-text">
+              <img src="./images/image/Стас.png" alt="Elise" class="revievs_foto">
+              <div class="mentor_and_student">
+                <div class="student_text">Стас</div>
+                <p class="mentor_text">Ученик Джафара</p>
               </div>
             </div>
-
-            <div class="reviews_people">
-              <p class="reviews_people-par">Dear teacher, I want to tell you — thanks a lot for your work and patience
-                You’re so young but so mature — I admire you and just enjoying to learn English with you. Sorry for
-                my mistakes and bad memory at class sometimes</p>
-              <div class="reviews_people-wrap_foto-text">
-                <img src="./images/image/стас2.png" alt="Станислав" class="reviews_people-foto" />
-                <div class="wrap_foto-text">
-                  <h2 class="student">Стас</h2>
-                  <p class="teacher">Ученик Джафара</p>
+            <div class="slide_inside_wrapper">
+              <p class="slide_text">Dear teacher, I want to tell you — thanks a lot for your work and patience
+                You’re so young but so mature — I admire you and just enjoying to learn English with you. Sorry
+                for my mistakes and bad memory at class sometimes.</p>
+              <div class="slide_foto-and-text">
+                <img src="./images/image/стас2.png" alt="Elise" class="revievs_foto">
+                <div class="mentor_and_student">
+                  <div class="student_text">Стас</div>
+                  <p class="mentor_text">Ученик Джафара</p>
                 </div>
               </div>
-            </div>
-          </div>
+              
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </section>
     <section class="FAQ">
       <div class="FAQ_wrapper">
         <h2 class="FAQ_head">FAQ</h2>
-      </div>
-      <div class="accordeon_wrap">
-        <div class="accordeon_wrap-item">
-          <button class="accordion">Какой уровень английского языка нужен для участия в
-            интенсиве?</button>
-          <div class="panel">
-            <p class="panel_item">Для участия в интенсиве английского языка необходимо иметь базовые знания языка на уровне Beginner или
-             Pre-Intermediate.</p>
+        <div class="accordion_wrap">
+          <div class="wrap_accordion-item">
+            <button class="accordion">Какой уровень английского языка нужен для участия в интенсиве?</button>
+            <div class="panel">
+              <p class="panel_par">Для участия в интенсиве английского языка необходимо иметь базовые знания языка на
+                уровне Beginner или Pre-Intermediate.</p>
+            </div>
+          </div>
+          <div class="wrap_accordion-item">
+            <button class="accordion">Какой формат занятий на интенсиве (групповые или индивидуальные)?</button>
+            <div class="panel">
+              <p>
+                Занятия проходят в групповом формате. Также вас добавят в чат, где вы сможете задать любой вопрос
+                спикерам, общаться с другими участниками интенсива и получить доступ к полезным материалам.
+              </p>
+            </div>
           </div>
         </div>
-          
-        <div class="accordeon_wrap-item">
-          <button class="accordion">Какой формат занятий на интенсиве (групповые или индивидуальные)?</button>
-        <div class="panel">
-          <p class="panel_item">Lorem ipsum...</p>
-        </div>
       </div>
-        
-      </div>
+    </section>
 
   </div>
-  </section>
-  <footer>
-    <div class="footer_wrap_decktop">
-      <div class="footer_img-wrap">
-        <img src="./images/icons/Logo_footer.svg" alt="курсы.ру" class="footer_img">
+  <footer class="color_footer">
+    <div class="footer_wrap">
+      <div class="footer_icon">
+        <img src="./images/icons/Logo_footer.svg" alt="logo_footer">
       </div>
-
-      <div class="footer_bottom-wrapper">
-        <p class="footer_bottom-par">© Курсы.ру, 2021-2023</p>
-        <ul class="footer_bottom-list">
-          <li class="footer_bottom-list_item"><a href="" class="footer_bottom-list_link">Политика конфидециальности</a>
-          </li>
-          <li class="footer_bottom-list_item"><a href="" class="footer_bottom-list_link">Отказ от ответственности</a>
-          </li>
-          <li class="footer_bottom-list_item"><a href="" class="footer_bottom-list_link">Соглашение</a></li>
+      <div class="footer_bottom_div">
+        <p class="footer-par">© Курсы.ру, 2021-2023</p>
+        <ul class="foolter_list">
+          <li class="footer_list-item">Политика конфидециальности</li>
+          <li class="footer_list-item">Отказ от ответственности</li>
+          <li class="footer_list-item">Соглашение</li>
         </ul>
       </div>
     </div>
-    </div>
   </footer>
-  </div>
-
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="./app.js"></script>
 </body>
-<script src="./app.js"></script>
 
 </html>

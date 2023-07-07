@@ -1,200 +1,203 @@
-@media (min-width: 320px) and (max-width: 1440px) {
-  * {
+@media (max-width: 860px) {
+  .grand_wrapper {
+    padding: 0px 10px;
     margin: 0 auto;
-    width: 100%;
   }
-  body {
-    width: 100%;
+  .burger_item {
+    display: inline;
   }
-  header {
-    margin: 0px;
+  .header_wrapper {
     width: 100%;
+    margin: 0 auto;
   }
-  .head_wrapper {
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-    margin-top: 40.5px;
-  }
-  .first_page {
-    margin: 0px;
-    width: 100%;
-  }
-  .page_wrapper {
-    margin: 0;
-    padding: 10px;
-    width: 95%;
-    display: flex;
+
+  .premier_wrap {
     flex-direction: column;
-    justify-content: space-between;
   }
-  .first_page-head {
-    font-size: 32px;
+  .premier_head {
     font-family: Inter;
+    font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: 42px;
   }
-  .first_page-button {
-    width: 80%;
-    font-size: 18px;
+  .premier_par {
     font-family: Inter;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-  }
-  .first_page-par {
     font-size: 16px;
-    font-family: Inter;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
     letter-spacing: 0.16px;
-    width: 85%;
+    margin-top: 24px;
   }
-  .intensive {
+  .premier_button {
     width: 100%;
-    margin: 0px;
+    margin-top: 28px;
   }
-  .intensive_wrapper {
-    width: 90%;
-    padding: 0px;
-    margin: 0px;
+  .premier_button-right {
+    width: 100%;
+    margin: 12px;
+    left: 1%;
   }
-  .header_intensive {
-    font-size: 24px;
+  .mentors {
+    width: 100%;
+  }
+  .date {
+    width: 30%;
     font-family: Inter;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 31px;
-    margin-top: 40px;
-  }
-  .intensive_wrapper-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-  .head_content {
-    font-size: 20px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-  }
-  .inside_wrapper-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-  .inside_wrapper-content_list {
-    font-size: 16px;
-    font-family: Inter;
+    font-size: 10.545px;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%;
-    letter-spacing: 0.16px;
+    line-height: normal;
+    text-transform: uppercase;
   }
-  .day_place {
-    align-self: flex-start;
-    margin: 0px;
+  .grammatics {
+    width: 50%;
+    height: auto;
+    font-family: Inter;
+    font-size: 10.545px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
   }
-  .speakers {
-    margin: 0px;
-    width: 100%;
-    margin-top: 80px;
+  .cris_info {
+    max-width: 40%;
   }
-  .speacers_header-wrap {
-    width: 100%;
-    margin: 0px;
+  .jafar_info {
+    width: 30%;
+    left: 70%;
+    top: 65%;
   }
-  .speakers_header {
-    margin: 0;
+  .expected_head {
     margin-top: 80px;
     margin-bottom: 40px;
-    margin-left: 10px;
-    font-size: 24px;
+  }
+  .expected_info {
+    padding: 32px 16px;
+    gap: 0;
+  }
+  .list_and_head {
+    flex-direction: column;
+  }
+  .expected_day {
     font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  .expected_info-head {
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 24px;
+  }
+  .expected_info {
+    margin-top: 16px;
+    margin-bottom: 40px;
+  }
+  .expected_info-list_item {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.16px;
+  }
+  .speacers_head {
+    font-family: Inter;
+    font-size: 24px;
     font-style: normal;
     font-weight: 600;
     line-height: 31px;
-    width: 100%;
   }
-  .speakers_wrapper {
-    display: flex;
-    flex-direction: column;
+  .speacers_info_wrap {
+    grid-template-columns: 1fr;
+    row-gap: 17px;
   }
-  .speakers_item {
-    margin: 0px;
-    width: 90%;
-    margin: 0 auto;
-  }
-  .speakers_img {
-    align-self: flex-start;
-    margin: 0px;
-  }
-  .speakers_head {
-    font-size: 20px;
+  .speacer_info-head {
     font-family: Inter;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
     margin-top: 16px;
   }
-  .speakers_list {
-    font-size: 16px;
+  .speacer_info-lest {
+    margin-top: 8px;
+  }
+  .speacer_info-item {
     font-family: Inter;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    margin-top: 8px;
   }
-  .reviews {
-    width: 100%;
-    margin: 0px;
+  .speacers_info_wrap-left {
+    padding: 16px;
   }
-  .reviews_wrapper {
-    margin: 0px;
+  .speacers_info_wrap-right {
+    padding: 16px;
   }
-  .arrows {
-    width: 100%;
-    margin: 0px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  .arrov_slide {
-    width: 32px;
-    margin: 0px;
-  }
-  .FAQ {
-    width: 100%;
-    margin: 0px;
-    margin: 0 auto;
+  .FAQ_head {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 31px;
   }
   .accordion {
-    margin: 0px;
-    width: 90%;
-    padding: 0px;
-    font-size: 20px;
+    padding: 32px 16px;
     font-family: Inter;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
   }
-  .accordeon_wrap {
-    width: 100%;
-    margin: 0px;
-    margin-top: 80px;
-  }
-  .FAQ_head {
-    margin: 0px;
-    margin-top: 80px;
+  .FAQ_wrapper {
+    margin-bottom: 80px;
   }
   .panel {
-    margin: 0px;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.16px;
   }
-  .panel_item {
-    margin: 0px;
-    width: 97%;
+  .footer_wrap {
+    padding: 0px 10px;
+    margin: 0 auto;
+  }
+  .footer_icon {
+    margin-top: 60px;
+    padding-bottom: 32px;
+  }
+  .footer_bottom_div {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-bottom: 0px;
+  }
+  .foolter_list {
+    flex-direction: column;
+    align-self: flex-start;
+    gap: 12px;
+  }
+  .footer_list-item {
+    font-family: Inter;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px;
+    text-transform: uppercase;
+  }
+  .footer-par {
+    margin-top: 12px;
+    margin-bottom: 24px;
   }
 }
