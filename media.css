@@ -142,6 +142,9 @@
   .speacers_info_wrap-right {
     padding: 16px;
   }
+  .FAQ {
+    padding: 0px 10px;
+  }
   .FAQ_head {
     margin-top: 80px;
     margin-bottom: 40px;
@@ -199,5 +202,9 @@
   .footer-par {
     margin-top: 12px;
     margin-bottom: 24px;
+  }
+  .slide_inside_wrapper {
+    padding: 24px 16px;
+    width: 100%;
   }
 }

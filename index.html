@@ -10,6 +10,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css" />
   <link rel="stylesheet" href="./media.css">
 </head>
@@ -45,7 +48,6 @@
             <button class="date">16-18 июля</button>
             <button class="grammatics">Базовая грамматика</button>
           </div>
-
           <img src="./images/image/mentors.png" alt="mentors" class="mentors" />
           <div class="cris_info">
             <p class="speaker">Спикер</p>
@@ -79,7 +81,6 @@
       </div>
     </section>
     <section class="speacers">
-
       <div class="speacers_wrapper">
         <h2 class="speacers_head">Спикеры</h2>
         <div class="speacers_info_wrap">
@@ -109,19 +110,19 @@
       </div>
     </section>
     <section class="reviews">
-
       <div class="head_wrap-reviews">
         <div class="swiper_head">Отзывы учеников</div>
         <div class="wrap_arrov">
-          <img src="./images/image/Button-left.png" alt="arrov_left" class="swiper_left  ">
-          <img src="./images/image/Button-right.png" alt="arrov_right" class="swiper_right ">
+          <img src="./images/image/Button-left.png" alt="arrov_left" class="swiper_left .swiper-button-prev ">
+          <img src="./images/image/Button-right.png" alt="arrov_right" class="swiper_right .swiper-button-next">
         </div>
       </div>
-
-        <div class="slider_wrap">
-          <div class="slide_inside_wrapper">
+      <div class="swiper">
+        <div class="slider_wrap swiper-wrapper">
+          <div class="slide_inside_wrapper swiper-slide">
             <p class="slide_text">Крис, спасибо большое за урок! Я давно хотела с тобой поработать, потому что тебе
-              хочется доверять как учителю, ты мотивируешь и заряжаешь энергией развиваться.</p>
+              хочется доверять как учителю, ты мотивируешь и заряжаешь энергией развиваться.
+            </p>
             <div class="slide_foto-and-text">
               <img src="./images/image/Elise.png" alt="Elise" class="revievs_foto">
               <div class="mentor_and_student">
@@ -129,84 +130,60 @@
                 <p class="mentor_text">Ученик Кристины</p>
               </div>
             </div>
-          </div>
-          <div class="slide_inside_wrapper">
-            <p class="slide_text">Dear teacher, I want to tell you — thanks a lot for your work and patience
+           </div>
+            <div class="slide_inside_wrapper swiper-slide">
+             <p class="slide_text">Dear teacher, I want to tell you — thanks a lot for your work and patience
               You’re so young but so mature — I admire you and just enjoying to learn English with you. Sorry for
               my mistakes and bad memory at class sometimes.</p>
-            <div class="slide_foto-and-text">
-              <img src="./images/image/Стас.png" alt="Elise" class="revievs_foto">
-              <div class="mentor_and_student">
-                <div class="student_text">Стас</div>
-                <p class="mentor_text">Ученик Джафара</p>
+              <div class="slide_foto-and-text">
+                <img src="./images/image/Стас.png" alt="Elise" class="revievs_foto">
+                <div class="mentor_and_student">
+                 <div class="student_text">Стас</div>
+                 <p class="mentor_text">Ученик Джафара</p>
+               </div>
               </div>
             </div>
-            <div class="slide_inside_wrapper">
+            <div class="slide_inside_wrapper swiper-slide">
               <p class="slide_text">Dear teacher, I want to tell you — thanks a lot for your work and patience
-                You’re so young but so mature — I admire you and just enjoying to learn English with you. Sorry
-                for my mistakes and bad memory at class sometimes.</p>
-              <div class="slide_foto-and-text">
+              You’re so young but so mature — I admire you and just enjoying to learn English with you. Sorry
+              for my mistakes and bad memory at class sometimes.</p>
+             <div class="slide_foto-and-text">
                 <img src="./images/image/стас2.png" alt="Elise" class="revievs_foto">
                 <div class="mentor_and_student">
                   <div class="student_text">Стас</div>
                   <p class="mentor_text">Ученик Джафара</p>
                 </div>
               </div>
-              
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </section>
-    <section class="FAQ">
-      <div class="FAQ_wrapper">
-        <h2 class="FAQ_head">FAQ</h2>
-        <div class="accordion_wrap">
-          <div class="wrap_accordion-item">
-            <button class="accordion">Какой уровень английского языка нужен для участия в интенсиве?</button>
-            <div class="panel">
-              <p class="panel_par">Для участия в интенсиве английского языка необходимо иметь базовые знания языка на
-                уровне Beginner или Pre-Intermediate.</p>
-            </div>
-          </div>
-          <div class="wrap_accordion-item">
-            <button class="accordion">Какой формат занятий на интенсиве (групповые или индивидуальные)?</button>
-            <div class="panel">
-              <p>
-                Занятия проходят в групповом формате. Также вас добавят в чат, где вы сможете задать любой вопрос
-                спикерам, общаться с другими участниками интенсива и получить доступ к полезным материалам.
-              </p>
             </div>
           </div>
         </div>
-      </div>
+      
     </section>
 
+
+      <section class="FAQ">
+        <div class="FAQ_wrapper">
+          <h2 class="FAQ_head">FAQ</h2>
+          <div class="accordion_wrap">
+            <div class="wrap_accordion-item">
+              <button class="accordion">Какой уровень английского языка нужен для участия в интенсиве?</button>
+              <div class="panel">
+                <p class="panel_par">Для участия в интенсиве английского языка необходимо иметь базовые знания языка на
+                  уровне Beginner или Pre-Intermediate.</p>
+              </div>
+              </div>
+              <div class="wrap_accordion-item">
+              <button class="accordion">Какой формат занятий на интенсиве (групповые или индивидуальные)?</button>
+                <div class="panel">
+                  <p>
+                  Занятия проходят в групповом формате. Также вас добавят в чат, где вы сможете задать любой вопрос
+                  спикерам, общаться с другими участниками интенсива и получить доступ к полезным материалам.
+                </p>
+              </div>
+            </div>
+          </div>
+          </div>
+        </section>
   </div>
   <footer class="color_footer">
     <div class="footer_wrap">
